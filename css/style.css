@@ -1,0 +1,264 @@
+*{
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+body, ul, li,h1,h2,h3,h4,h5,h6{
+
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+	padding: 0;
+}
+
+
+.top-nav{
+	margin-left: 8.33%;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+.top-nav .top-part{
+	height: 100%;
+}
+.top-nav .top-part ul{
+	margin-right: 10%;
+	padding-top: -25px;
+	margin-top: -25px;
+}
+.top-nav .top-part ul li{
+	list-style-type: none;
+	float: left;
+	display: inline;
+	margin-right: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.top-nav .top-part ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.top-nav .top-part ul li a:hover{
+	color: red;
+}
+.top-nav .down-part{
+	height: 100%;
+}
+.top-nav .down-part ul{
+	padding-top: -25px;
+	margin-top: -25px;
+
+}
+.top-nav .down-part ul li{
+	float: right;
+	display: inline;
+	list-style-type: none;
+	margin-right: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+.top-nav .down-part ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.top-nav .down-part ul li a:hover{
+	color: red;
+}
+
+.banner{
+	margin-left: 8.33%;
+	height: 130px;
+	margin-bottom: 10px;
+}
+.banner .logo {
+	height: 100%;
+}
+.banner .logo img{
+	width: 80%;
+	margin-left: 10%;
+	height: 100%;
+}
+.banner  .ad{
+	height: 100%;
+}
+.banner  .ad img{
+	width: 90%;
+	margin-left: 10%;
+	height: 100%;
+}
+.low-nav{
+	height: 60px;
+	background-color: #483d80;
+	margin-top: -10px;
+}
+.low-nav .inner-low{
+	margin-left: 8.33%;
+	margin-top: -30px;
+	padding-top: -20px;
+}
+.low-nav .inner-low ul{
+	margin-top: -10px;
+
+}
+.low-nav .inner-low ul li{
+	list-style-type: none;
+	font-size: 14px;
+	margin-right: 0px;
+}
+.low-nav .inner-low ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: tahoma;
+
+}
+.low-nav .inner-low ul li a:hover{
+	color: red;
+}
+
+.low-nav .inner-low .inner-search{
+	/*margin-top: -10px;*/
+}
+.low-nav .inner-low .inner-search form{
+	height: 100%;
+}
+.low-nav .inner-low .inner-search form input[type="text"]{
+	width: 150px;
+	border: 2px solid #fff;
+	background: transparent;
+	border-radius: 10px;
+	float: left;
+	display: inline-block;
+	height: 100%; 
+	color: #fff;
+	padding-left: 5px;
+}
+.low-nav .inner-low .inner-search form input[type="text"]:hover{
+	background-color: #fff;
+	color: #000;
+}
+.low-nav .inner-low .inner-search form input[type="submit"]{
+	width: 60px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 10px;
+	height: 100%;
+	margin-left: 45px;
+	font-weight: bold;
+
+}
+.low-nav .inner-low .inner-search form input[type="submit"]:hover{
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+.main-body{
+	margin-left: 8.33%;
+	margin-top: -10px;
+}
+.social{
+	height: 50px;
+}
+.social .follow{
+	font-style: italic;
+	font-style: tahoma;
+	margin-top: -20px;
+	margin-right: 0px;
+}
+.social .icon{
+	height: 50px;
+	margin-top: -18px;
+	margin-right: 0px;
+}
+.social .icon img{
+	width: 40%;
+	height: 100%;
+	margin-left: 30%;
+	border-radius: 100%;
+
+}
+.social .icon img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.row{
+	height: 450px;
+	margin-top: 0px;
+	background-color: #f7f7f7;
+	margin-bottom: 20px;
+}
+.row .upper-column{
+	height: 100%;
+	margin-top: -10px;
+}
+.row .upper-column .top-upper-column{
+	height: 70%;
+}
+.row .upper-column .top-upper-column img{
+	width: 100%;
+	height: 90%;
+	margin-top: 5%;
+}
+.row .upper-column .down-column{
+	height: 30%;
+}
+.row .upper-column .down-column .down-post{
+	height: 100%;
+}
+.row .upper-column .down-column .down-post img{
+	height: 100%;
+	width: 100%;
+
+}
+.second-column{
+	height: 100%;
+	margin-top: -10px;
+}
+.second-column .sub-column{
+	height: 45%;
+	margin-top: 5%;
+}
+.second-column .sub-column img{
+	width: 100%;
+	height: 100%;
+}
+.second-column .sub-column p:hover{
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.2nd-row2{
+	margin-bottom: 10px;
+}
+
+article{
+	background-color: #f7f7f7;
+}
+
+article h1{
+	text-align: center;
+	justify-content: center;
+}
+article img:hover{
+	cursor: pointer;
+	filter: brightness(70%);
+}
+
+footer{
+	background-color: #483d80;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+
+.row2 h1{
+	color: #483d80;
+}
